@@ -17,6 +17,11 @@ for e2e testing, don't forget to run both cypress app and react app with
 
 if your react app port is not 5173, change the port in 'my-app/cypress.config.js'
 
+for accessibility testing
+- npm install cypress-axe --save-dev
+
+
+
 The .jsx and cy.jsx, I mean the test case, is designed to be both success and failed ones. Don't be nervous to see those red test results.
 
 Enjoy!
