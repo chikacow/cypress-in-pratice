@@ -1,12 +1,22 @@
-# React + Vite
+#How to clone and use this???
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+cd my-app
 
-Currently, two official plugins are available:
+install some necessary react adn cypress packages, or not if not required
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+just remember to cd into my-app
 
-## Expanding the ESLint configuration
+anyway, this is a ReactJS project, don't forget that
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+for component testing, just do as usual
+
+for e2e testing, don't forget to run both cypress app and react app with
+- npx cypress open
+- npm run dev
+(open 2 terminal)
+
+if your react app port is not 5173, change the port in 'my-app/cypress.config.js'
+
+The .jsx and cy.jsx, I mean the test case, is designed to be both success and failed ones. Don't be nervous to see those red test results.
+
+Enjoy!
